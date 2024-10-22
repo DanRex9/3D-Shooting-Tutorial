@@ -23,4 +23,28 @@ To make our cylinder appear as a gun you will have to be in the Game Camera thro
 The transform component is responsible for maintaining the position of the gun within the scene. If you modify the position co-ordinates in the inspector, the position of the gun will change relative to the camera.
 
 When creating the cylinder, it comes with several components, one of these being a Capsule Collider, we dont need this component so in the Inspector right click on the Capsule Collider and Remove Component.
-It is very important to name all your GameObjects to know what is what, in the Hierarchy right click on the cylinder and Rename it *GUN
+It is very important to name all your GameObjects to know what is what, in the Hierarchy right click on the cylinder and Rename it Gun.
+
+# Scriptting Gun
+
+Before starting to write the script, in the Hierarchy you will have to create an epmty as a child of our Gun and name it BulletSpawnPoint it should look like this.
+
+
+![Capture 3](https://github.com/user-attachments/assets/8df68aaa-e592-46f0-9120-9f9c121bf5a3)
+
+At the bottom of the Inspector click on Add Component and write "Gun" this will give you the option to create a new script and name it Gun
+
+Once the script is added click on the three dots to the right of your script component and click the option that says Edit Script, now we can start to write our first Script.
+
+
+
+
+
+
+
+
+
+
+
+
+
