@@ -34,17 +34,7 @@ Before starting to write the script, in the Hierarchy you will have to create an
 
 At the bottom of the Inspector click on Add Component and write "Gun" this will give you the option to create a new script and name it Gun
 
-Once the script is added click on the three dots to the right of your script component and click the option that says Edit Script, now we can start to write our first Script.
+Once the script is added click on the three dots to the right of your script component and click the option that says Edit Script, this should open up Visual Studio in the main editor window, now we can start to write our first Script. The initial code should look like this. 
 
 
-
-
-
-
-
-
-
-
-
-
-
+![Capture 4](https://github.com/user-attachments/assets/ec6ac0a0-caf5-4ce1-96d8-e7ef81929297)
