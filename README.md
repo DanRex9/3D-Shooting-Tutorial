@@ -11,4 +11,7 @@ In this tutorial, we will write several scripts that takes player input in the f
 
 # Getting Started
 To begin with create a new Unity project, add a cylinder, and then we are going to change the properties of our cylinder. If you look at the Inspector Window while you have your cylinder selected, it will show you all the current properties of the cylinder. At the top of this list is the Transfor component. 
+As soon as the cylinder is created left clik on Transform and rest the properties this is to set the cylinder in its original place incase of any accidental movements. Next is to chnage the properties and it should look ilke this.
+
+
 ![Capture 2](https://github.com/user-attachments/assets/47a1484d-d327-416a-89a1-f8b12f8e5c67)
