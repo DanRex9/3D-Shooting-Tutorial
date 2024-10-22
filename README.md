@@ -11,7 +11,7 @@ In this tutorial, we will write several scripts that takes player input in the f
 
 # Getting Started
 To begin with create a new Unity project, add a cylinder, and then we are going to change the properties of our cylinder. If you look at the Inspector Window while you have your cylinder selected, it will show you all the current properties of the cylinder. At the top of this list is the Transform component. 
-As soon as the cylinder is created left clik on Transform and rest the properties this is to set the cylinder in its original place incase of any accidental movements. Next is to change the properties, it should look ilke this.
+As soon as the cylinder is created right clik on Transform and rest the properties this is to set the cylinder in its original place incase of any accidental movements. Next is to change the properties, it should look ilke this.
 
 
 ![Capture 2](https://github.com/user-attachments/assets/47a1484d-d327-416a-89a1-f8b12f8e5c67)
@@ -22,4 +22,5 @@ To make our cylinder appear as a gun you will have to be in the Game Camera thro
 
 The transform component is responsible for maintaining the position of the gun within the scene. If you modify the position co-ordinates in the inspector, the position of the gun will change relative to the camera.
 
-When creating the cylinder, it comes with several components one of these being CAPSULE cCOLLIDER in the Inspector 
+When creating the cylinder, it comes with several components, one of these being a Capsule Collider, we dont need this component so in the Inspector right click on the Capsule Collider and Remove Component.
+It is very important to name all your GameObjects to know what is what, in the Hierarchy right click on the cylinder and Rename it *GUN
