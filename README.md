@@ -25,7 +25,7 @@ The transform component is responsible for maintaining the position of the gun w
 When creating the cylinder, it comes with several components, one of these being a Capsule Collider, we dont need this component so in the Inspector right click on the Capsule Collider and Remove Component.
 It is very important to name all your GameObjects to know what is what, in the Hierarchy right click on the cylinder and Rename it `Gun`.
 
-In the Hierarchy right click and create empty and name it 'BulletSpawnPoint' we will come back to this in the scripting of the gun so you can leave it for now.
+In the Hierarchy right click and create empty and name it `BulletSpawnPoint` we will come back to this in the scripting of the gun so you can leave it for now.
 
 # Scriptting Gun
 
