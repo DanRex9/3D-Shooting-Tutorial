@@ -80,3 +80,8 @@ Save script and go back to Unity, the scrpt should look like this.
 
 
 ![Capture](https://github.com/user-attachments/assets/db607175-58b0-4047-8d31-08dd39313b9f)
+
+# Finishing
+
+In the Hierarchy drag the `Bullet` into assets and turn it into a `Prefab` and delete the bullet from the Hierachy, clcik on the Gun and drag our Bullet prefab into the Gun script into iys slot. 
+Now everything is finished, you can create targets infront of you to shoot and test out the shooting tutorial. 
