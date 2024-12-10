@@ -59,6 +59,9 @@ If you save at this stage and check the Inspector window in Unity it should look
 
 ![Capture 7](https://github.com/user-attachments/assets/c8eff2a7-8585-42bc-b078-2149fb6bdbb0)
 
+Continuing the script we have to make the gun shoot, so we are going to add some script satating that when pressing the left click a series of equations will `Instantiate` and a bullet will spawm. With this script we can make the bullet move and have velocity. 
+
+![Capture 9](https://github.com/user-attachments/assets/6abf62ef-6244-4739-b2aa-4107e6af4c05)
 
 Now in the Hierarchy click and drag `BulletSpawnPoint` and add it to the `Gun` script, now in the scene view select `BulletSpawnPoint` and move it so its at the edge of our gun, you can adjust the placement of the spawn point to your liking. At this stage it should look like this.
 
