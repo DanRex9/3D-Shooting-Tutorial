@@ -50,7 +50,7 @@ Once the script is added click on the three dots to the right of your script com
 
 ![Capture 6](https://github.com/user-attachments/assets/e5e54d7c-c4eb-4701-9b3f-636e8cc8ff6a)
 
- To begin with we want to make our variables `public` this is so we  can access and modify these variables within unity.
+ To begin with we want to make our variables `public` this is so we can access and modify these variables within unity.
  
  If you follow the links in the documentation, you will see that [`Transform`](https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Transform.html) itself is another Unity supplied class. And it has a number of useful functions that we can use to modify the transform of an object, in this case the `bulletSpawnPoint`, this is for us to later on work on the spawnpoint of our bullet and where the projectile will launch from.
  
@@ -58,3 +58,10 @@ Our second variable we have to code is `GameObject bulletPOrefab` this creates a
 If you save at this stage and check the Inspector window in Unity it should look like this.
 
 ![Capture 7](https://github.com/user-attachments/assets/c8eff2a7-8585-42bc-b078-2149fb6bdbb0)
+
+
+Now in the Hierarchy click and drag `BulletSpawnPoint` and add it to the `Gun` script, now in the scene view select `BulletSpwanPoint` and move it so its at the edge of our gun, you can adjust the placement of the spawn point to your liking. At this stage it should look like this.
+
+![Capture 55](https://github.com/user-attachments/assets/7b883d64-8cee-4326-92f8-de95489e1337)
+
+
