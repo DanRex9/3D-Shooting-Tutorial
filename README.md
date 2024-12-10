@@ -59,7 +59,7 @@ If you save at this stage and check the Inspector window in Unity it should look
 
 ![Capture 7](https://github.com/user-attachments/assets/c8eff2a7-8585-42bc-b078-2149fb6bdbb0)
 
-Continuing the script we have to make the gun shoot, so we are going to add some script satating that when pressing the left click a series of equations will `Instantiate` and a bullet will spawm. With this script we can make the bullet move and have velocity. 
+Continuing the script we have to make the gun shoot, so we are going to add some script satating that when pressing the left click a series of equations will `Instantiate` and a bullet will spawm. With this script we can make the bullet move and have velocity. Save and your script should look like this, and that will be al  the scripting for the `Gun`. 
 
 ![Capture 9](https://github.com/user-attachments/assets/6abf62ef-6244-4739-b2aa-4107e6af4c05)
 
@@ -75,4 +75,8 @@ Now again in the Hierarchy right click and go to 3D Object and create a sphere, 
 In the inspector right click and add the `Rigidbody` component, inside the rigidbody unclick `Use Gravity` 
 Create a C# script and name it `Bullet` now we can start with the scripting. 
 
+To finish in this script are going to make the bullet go `OnCollisionEnter` and destroy `gameObjects` as well as having a lifespan for our bullet of 3 seconds, if in 3 seconds the bullet doesnt impact with any gameObject the bullet will disappear. Note that these bullets will destroy anything in your Game since any 3d Object is a `gameObject` so if you want to change this you will have to add a `ComnpareTag` to the script but we wont be changing this in this tutorial.
+Save script and go back to Unity, the scrpt should look like this. 
 
+
+![Capture](https://github.com/user-attachments/assets/db607175-58b0-4047-8d31-08dd39313b9f)
