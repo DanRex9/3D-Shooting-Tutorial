@@ -68,5 +68,8 @@ Now in the Hierarchy click and drag `BulletSpawnPoint` and add it to the `Gun` s
 # Creating and Scripting Bullet
 
 
-Now again in the Hierarchy right click and go to 3D Object and create a sphere NAME it `Bullet` and in transform change the `X`, `Y` and `Z` to 0.5.
+Now again in the Hierarchy right click and go to 3D Object and create a sphere, NAME it `Bullet` and in transform change the `X`, `Y` and `Z` to 0.5.
 In the inspector right click and add the `Rigidbody` component, inside the rigidbody unclick `Use Gravity` 
+Create a C# script and name it `Bullet` now we can start with the scripting. 
+
+
