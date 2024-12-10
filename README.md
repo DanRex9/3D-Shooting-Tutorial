@@ -60,7 +60,8 @@ If you save at this stage and check the Inspector window in Unity it should look
 ![Capture 7](https://github.com/user-attachments/assets/c8eff2a7-8585-42bc-b078-2149fb6bdbb0)
 
 
-Now in the Hierarchy click and drag `BulletSpawnPoint` and add it to the `Gun` script, now in the scene view select `BulletSpwanPoint` and move it so its at the edge of our gun, you can adjust the placement of the spawn point to your liking. At this stage it should look like this.
+Now in the Hierarchy click and drag `BulletSpawnPoint` and add it to the `Gun` script, now in the scene view select `BulletSpawnPoint` and move it so its at the edge of our gun, you can adjust the placement of the spawn point to your liking. At this stage it should look like this.
+
 
 ![Capture 55](https://github.com/user-attachments/assets/7b883d64-8cee-4326-92f8-de95489e1337)
 
