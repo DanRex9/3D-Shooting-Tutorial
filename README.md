@@ -65,4 +65,8 @@ Now in the Hierarchy click and drag `BulletSpawnPoint` and add it to the `Gun` s
 
 ![Capture 55](https://github.com/user-attachments/assets/7b883d64-8cee-4326-92f8-de95489e1337)
 
+# Creating and Scripting Bullet
 
+
+Now again in the Hierarchy right click and go to 3D Object and create a sphere NAME it `Bullet` and in transform change the `X`, `Y` and `Z` to 0.5.
+In the inspector right click and add the `Rigidbody` component, inside the rigidbody unclick `Use Gravity` 
