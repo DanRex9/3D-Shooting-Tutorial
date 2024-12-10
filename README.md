@@ -54,7 +54,7 @@ Once the script is added click on the three dots to the right of your script com
  
  If you follow the links in the documentation, you will see that [`Transform`](https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Transform.html) itself is another Unity supplied class. And it has a number of useful functions that we can use to modify the transform of an object, in this case the `bulletSpawnPoint`, this is for us to later on work on the spawnpoint of our bullet and where the projectile will launch from.
  
-Our second variable we have to code is `GameObject bulletPOrefab` this creates an open variable where you can access in the inspector window in Unity, later on we will have to create a bullet [`prefab`](https://docs.unity3d.com/Manual/Prefabs.html) to add to our script.
+Our second variable we have to code is `GameObject bulletPrefab` this creates an open variable where you can access in the inspector window in Unity, later on we will have to create a bullet [`prefab`](https://docs.unity3d.com/Manual/Prefabs.html) to add to our script.
 If you save at this stage and check the Inspector window in Unity it should look like this.
 
 ![Capture 7](https://github.com/user-attachments/assets/c8eff2a7-8585-42bc-b078-2149fb6bdbb0)
